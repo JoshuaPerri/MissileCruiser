@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Lol from './components/Lol';
+import Tile from './components/Tile';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div><Tile/>
+  <Tile/>
+  <Tile/>
+  <Tile/>
+  <Tile/></div>,
   document.getElementById('root')
 );
 

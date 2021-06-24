@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.Tile {
+  border-radius:50%;
+  border-width:4px;
+  border-color:black;
+  border-style:solid;
+  height: 100pt;
+  width: 100pt;
+}
+
