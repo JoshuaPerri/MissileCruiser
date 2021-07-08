@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Lol from './components/Lol';
 import Tile from './components/Tile';
+import Board from './components/Board';
 
 ReactDOM.render(
-  <div><Tile/>
-  <Tile/>
-  <Tile/>
-  <Tile/>
-  <Tile/></div>,
+  // <div><Tile color={"red"}/>
+  // <Tile color={"rgb(0, 200, 0)"}/>
+  // </div>,
+  <div><Board/></div>,
+
   document.getElementById('root')
 );
 
